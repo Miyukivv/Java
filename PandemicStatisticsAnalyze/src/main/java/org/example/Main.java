@@ -30,7 +30,6 @@ public class Main {
             }
             LocalDate date = LocalDate.of(2020, 2, 24);
 
-            // Uzyskanie danych dla każdego kraju i wyświetlanie wyników
             for (Country country : countriesList) {
                 CountryWithoutProvinces countryWithoutProvinces = new CountryWithoutProvinces(country.getName());
                 int[] countryStatistics = countryWithoutProvinces.howManyConfirmedCasesAndDeaths(Country.getPath1(), Country.getPath2(), date);

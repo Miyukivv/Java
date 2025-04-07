@@ -5,11 +5,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.function.Function;
+
 
 public class CountryWithProvinces extends Country{
 
@@ -51,11 +48,7 @@ public class CountryWithProvinces extends Country{
         return 0;
     }
 
-    /*W klasie Country napisz publiczne, czysto wirtualne metody getConfirmedCases oraz getDeaths,
-które przyjmują jako parametr datę, a zwracającą odpowiednio liczbę zdiagnozowanych przypadków i
-liczbę zgonów tego dnia. Zakładamy poprawność podanej daty.
-w CountryWithProvinces należy wywołać tę metodę rekurencyjnie dla wszystkich prowincji i zsumować wynik.
-*/
+
     @Override
     public int getConfirmedCases(LocalDate date) {
         int totalConfirmedCases=0;
