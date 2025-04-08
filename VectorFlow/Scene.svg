@@ -1,0 +1,16 @@
+<svg height="360" width="360" xmlns="http://www.w3.org/2000/svg">
+	<ellipse cx="400.000000" cy="120.000000" rx="60.000000" ry="60.000000" fill="url(#g1)"  filter="url(#f4)" />
+	
+	<polygon points="50,350 200,100 350,350 " style="fill:#8B4513;stroke:#654321;stroke-width:3.0;" transform=" rotate(5.000000 200 200) scale(1 2)" filter="url(#f4)" />
+	
+	<polygon points="500,300 500,200 400,200 400,300 " style="fill:#FFFAF0;stroke:#708090;stroke-width:2.0;" filter="url(#f4)" />
+	
+	<polygon points="400,200 450,140 500,200 " style="fill:#8B0000;stroke:#2F4F4F;stroke-width:2.0;" filter="url(#f4)" />
+	
+	<line
+		x1="  450"
+		y1="  300"
+		x2="  450"
+		y2="  370"
+		 style="stroke:#000000;stroke-width:4.0;"/>
+</svg>
