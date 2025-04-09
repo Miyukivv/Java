@@ -1,6 +1,6 @@
 # Java 
 Wszystkie projekty zamieszczone w niniejszym repozytorium zostały zrealizowane w ramach zajęć dydaktycznych na kierunku Informatyka.
-All projects included in this repository were implemented as part of teaching classes at the Computer Science faculty.
+(All projects included in this repository were implemented as part of teaching classes at the Computer Science faculty.)
 
 ### Spis projektów(list of projects)
   - [ICD10 Cause of Death](ICD10CauseOfDeath/)
